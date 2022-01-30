@@ -1,14 +1,15 @@
 {
-  "name": "diy-smarthome-utils",
+  "name": "diy-smarthome-<YOUR NAME HERE>",
   "version": "1.0.0",
-  "description": "Utilities for the DIY-Smarthome",
+  "description": "TODO",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-ts",
+    "build-ts": "tsc --build tsconfig.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DIY-Smarthome/Utils.git"
+    "url": "RUN npm init TO GENERATE"
   },
   "keywords": [
     "Smarthome"
@@ -16,9 +17,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DIY-Smarthome/Utils/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/DIY-Smarthome/Utils#readme",
+  "homepage": "RUN npm init TO GENERATE",
   "devDependencies": {
     "@types/node": "^17.0.13",
     "typescript": "^4.5.5"
